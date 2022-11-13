@@ -28,11 +28,11 @@ public class Main {
         }
         System.out.println();
         System.out.println(arr[0]);
-        palindrome("Шалаш");
+        palindrome("ШалаШ");
 
 
     }
-
+//написать программу, которая проверяет, является ли строка палиндромом.
 public static void palindrome (String word){
         StringBuilder strBuilder = new StringBuilder(word);
         strBuilder.reverse();
@@ -43,8 +43,6 @@ public static void palindrome (String word){
             System.out.println("Данная строка не является палиндромом");
         }
 }
-
-
 }
 
 
